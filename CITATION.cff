@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the paper (preferred-citation) and this archived repository."
+title: "synchro-language-network: code and data for 'Fibration symmetry-breaking supports functional transitions in a brain network engaged in language'"
+type: software
+license: MIT
+# Data in data/ are licensed under CC-BY-4.0 (see data/LICENSE)
+version: "1.0.0"
+date-released: "2026-11-09"
+repository-code: "https://github.com/MakseLab/synchro-language-network"   # update if the repository name differs
+# doi: "10.5281/zenodo.XXXXXXX"   # add the Zenodo DOI after the first release
+authors:
+  - given-names: Tommaso
+    family-names: Gili
+  - given-names: Bryant
+    family-names: Avila
+  - given-names: Luca
+    family-names: Pasquini
+  - given-names: Andrei
+    family-names: Holodny
+  - given-names: David
+    family-names: Phillips
+  - given-names: Paolo
+    family-names: Boldi
+  - given-names: Andrea
+    family-names: Gabrielli
+  - given-names: Guido
+    family-names: Caldarelli
+  - given-names: Manuel
+    family-names: Zimmer
+  - given-names: Hernán A.
+    family-names: Makse
+preferred-citation:
+  type: article
+  title: "Fibration symmetry-breaking supports functional transitions in a brain network engaged in language"
+  journal: "Nature Communications"
+  year: 2026
+  authors:
+    - given-names: Tommaso
+      family-names: Gili
+    - given-names: Bryant
+      family-names: Avila
+    - given-names: Luca
+      family-names: Pasquini
+    - given-names: Andrei
+      family-names: Holodny
+    - given-names: David
+      family-names: Phillips
+    - given-names: Paolo
+      family-names: Boldi
+    - given-names: Andrea
+      family-names: Gabrielli
+    - given-names: Guido
+      family-names: Caldarelli
+    - given-names: Manuel
+      family-names: Zimmer
+    - given-names: Hernán A.
+      family-names: Makse

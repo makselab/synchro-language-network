@@ -1,0 +1,4 @@
+partition,n_classes,min_tolerance_percent_of_max_weight,synthetic_imbalance_over_lambda_minus_1
+Baseline,5,1.742,1.000
+Task,5,1.492,1.000
+Resting state,4,2.140,1.000

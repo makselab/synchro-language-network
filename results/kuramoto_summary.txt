@@ -1,0 +1,6 @@
+Resting-state network of Fig. 4b
+  removed edges: 10 of 46; checks: {'subgraph': True, 'min_in_degree': True, 'balanced': True, 'fibers_equal_target': True}
+  K = 0.3, 500 draws, PLV and coherence on the second half of each run
+
+  run length 3000: partition reproduced 489, a fiber split 11
+  within-fiber coherence > 0.99 (run length 3000, draws): SMG 500, SMA-PreMA-WA (5 ROIs) 440, AG 500, BA 500
