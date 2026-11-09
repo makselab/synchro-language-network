@@ -5,9 +5,9 @@ type: software
 license: MIT
 # Data in data/ are licensed under CC-BY-4.0 (see data/LICENSE)
 version: "1.0.0"
-date-released: "2026-11-09"
-repository-code: "https://github.com/MakseLab/synchro-language-network"   # update if the repository name differs
-# doi: "10.5281/zenodo.XXXXXXX"   # add the Zenodo DOI after the first release
+date-released: "2026-11-10"
+repository-code: "https://github.com/makselab/synchro-language-network"
+doi: "10.5281/zenodo.24094720"
 authors:
   - given-names: Tommaso
     family-names: Gili

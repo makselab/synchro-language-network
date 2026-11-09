@@ -1,5 +1,7 @@
 # Cluster synchronization of the language network: code and data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24094720.svg)](https://doi.org/10.5281/zenodo.24094720)
+
 Code and data to reproduce the analyses and the data figures of
 
 > T. Gili, B. Avila, L. Pasquini, A. Holodny, D. Phillips, P. Boldi, A. Gabrielli, G. Caldarelli, M. Zimmer, H. A. Makse,
@@ -18,6 +20,13 @@ python/tests/         unit tests and checks of the values reported in the paper
 matlab/               MATLAB / GNU Octave implementation and tests
 assets/               network drawings used in Fig. 2a, c, e
 results/              output of the scripts (created when they run)
+```
+
+## Getting the code
+
+```bash
+git clone https://github.com/makselab/synchro-language-network.git
+cd synchro-language-network
 ```
 
 ## Requirements
@@ -104,6 +113,6 @@ Fig. 1 combines brain renderings and fMRI images with schematic drawings, and Su
 - Code (`python/`, `matlab/`, `assets/` and all files outside `data/`): MIT license, see [`LICENSE`](LICENSE).
 - Data (`data/`): Creative Commons Attribution 4.0 International (CC BY 4.0), see [`data/LICENSE`](data/LICENSE). `data/rosen_halgren_submatrix.json` is a subset of the connectome of Rosen and Halgren (2021), itself published under CC BY 4.0; cite that paper when using it.
 
-If you use this code or these data, please cite the paper and the archived version of this repository (DOI in [`CITATION.cff`](CITATION.cff); GitHub shows it under "Cite this repository"):
+If you use this code or these data, please cite the paper and the archived version of this repository, Zenodo, https://doi.org/10.5281/zenodo.24094720 (GitHub also shows the citation under "Cite this repository"):
 
 Gili, T., Avila, B., Pasquini, L., Holodny, A., Phillips, D., Boldi, P., Gabrielli, A., Caldarelli, G., Zimmer, M. & Makse, H. A. Fibration symmetry-breaking supports functional transitions in a brain network engaged in language. *Nature Communications* (2026).
