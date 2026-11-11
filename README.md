@@ -108,6 +108,10 @@ HRF, hemodynamic response function; MILP, mixed integer linear programming.
 
 Fig. 1 combines brain renderings and fMRI images with schematic drawings, and Supplementary Figs. 1, 3 and 4 were drawn by hand. All figures follow the style in `python/synchro/figstyle.py` (Nature Portfolio artwork guidelines). The MATLAB implementation covers the synchronization analysis only.
 
+## Use of AI tools
+
+The code was optimized with the assistance of the large language model Claude Opus 5.5 (Anthropic). The authors reviewed and tested all code (see `python/tests/`) and take full responsibility for it.
+
 ## License and citation
 
 - Code (`python/`, `matlab/`, `assets/` and all files outside `data/`): MIT license, see [`LICENSE`](LICENSE).
