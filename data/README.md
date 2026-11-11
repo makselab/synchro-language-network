@@ -28,7 +28,7 @@ A1, primary auditory cortex; PSL, perisylvian language area; MGN, medial genicul
 
 ## Structure of the ROI time-series files
 
-- `data`: array of size participants × time points × ROIs (repetition time 2.5 s).
+- `data`: array of size participants × time points × ROIs (repetition time 2.5 s). Each run had 160 volumes; in the resting state the first five volumes were discarded to allow the magnetization to reach a steady state (T1 equilibration), leaving 155 time points.
 - `rois`: ROI labels in the order of the last dimension (SMG_L, SMG_R, PreMA_L, PreMA_R, SMA, WA_L, WA_R, AG_L, AG_R, BA_L, BA_R), with region name, hemisphere and, for the Glasser files, the corresponding parcel.
 - `participants`: anonymous participant codes P01–P20.
 - `preprocessing`, `roi_definition`, `TR_seconds`: description of the data.
